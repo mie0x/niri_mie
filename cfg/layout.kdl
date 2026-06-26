@@ -18,6 +18,6 @@
         }
 
         struts {
-            top 42
+            top 38
         }
     }
