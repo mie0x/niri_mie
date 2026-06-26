@@ -24,6 +24,6 @@ input {
 }
 
 cursor {
-    xcursor-theme "Whitesur Cursors" // Or your preferred theme
-    xcursor-size 16                // Change this to your desired size (e.g., 24, 32, 48)
+    //xcursor-theme "whitesur-cursors" // Or your preferred theme
+    xcursor-size 18                // Change this to your desired size (e.g., 24, 32, 48)
 }
