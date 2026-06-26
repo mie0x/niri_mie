@@ -22,3 +22,8 @@ input {
     focus-follows-mouse // Automatically focus windows under the mouse pointer
     workspace-auto-back-and-forth // Enable workspace back & forth switching
 }
+
+cursor {
+    xcursor-theme "Whitesur Cursors" // Or your preferred theme
+    xcursor-size 16                // Change this to your desired size (e.g., 24, 32, 48)
+}

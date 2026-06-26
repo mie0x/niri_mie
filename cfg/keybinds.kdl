@@ -17,6 +17,10 @@ binds {
     CTRL+SHIFT+ESCAPE                   hotkey-overlay-title="Open Btop: btop" { spawn-sh "kitty -e btop"; }
     MOD+ALT+L                           hotkey-overlay-title="Lock Screen: noctalia lock" { spawn-sh "noctalia ipc call lockScreen lock"; }
     MOD+V                               hotkey-overlay-title="Clipboard: noctalia Clipboard" { spawn-sh "noctalia msg panel-toggle clipboard"; }
+    
+    // wallpaper
+    F1                               hotkey-overlay-title="wallheaven: noctalia wallheaven" {spawn-sh "noctalia msg panel-toggle noctalia/wallhaven:browser";}
+    
 
     // Please choose your own file manager.
     MOD+E                               hotkey-overlay-title="File Manager: Nautilus" { spawn "nautilus"; }
@@ -119,6 +123,9 @@ binds {
     CTRL+SHIFT+1                        { screenshot; }
     CTRL+SHIFT+2                        { screenshot-screen; }
     CTRL+SHIFT+3                        { screenshot-window; }
+
+    // screen record
+    F8                                   {spawn-sh "noctalia msg plugin noctalia/screen_recorder:service all toggle";}
 
     // ─── Emergency Escape Key ───
     // Use this when a fullscreen app blocks your keybinds.
