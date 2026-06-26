@@ -12,7 +12,7 @@ binds {
     MOD+RETURN                          hotkey-overlay-title="Open Terminal: Kitty" { spawn "kitty"; }
     MOD+SPACE                           hotkey-overlay-title="Open App Launcher: noctalia launcher" { spawn-sh "noctalia msg panel-toggle launcher"; }
     MOD+B                               hotkey-overlay-title="Open Browser: firefox" { spawn "firefox"; }
-    MOD+M                               hotkey-overlay-title="Open Music: pear-desktop" { spawn "pear-desktop"; }
+    MOD+M                               hotkey-overlay-title="Open Music: spotify" { spawn "spotify"; }
     MOD+D                               hotkey-overlay-title="Open Discord: discord" { spawn "discord"; }
     CTRL+SHIFT+ESCAPE                   hotkey-overlay-title="Open Btop: btop" { spawn-sh "kitty -e btop"; }
     MOD+ALT+L                           hotkey-overlay-title="Lock Screen: noctalia lock" { spawn-sh "noctalia ipc call lockScreen lock"; }
